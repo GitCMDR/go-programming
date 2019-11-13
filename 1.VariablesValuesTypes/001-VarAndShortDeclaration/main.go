@@ -2,9 +2,11 @@ package main
 
 import "fmt"
 
-// DECLARE there is a Variable with the Identifier "z" and
-// that variable is of type int
-var z int
+var (
+	// DECLARE there is a Variable with the Identifier "z" and
+	// that variable is of type int
+	z int
+)
 
 func main() {
 	// Short Declaration Operator
